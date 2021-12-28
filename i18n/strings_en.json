@@ -1,0 +1,9 @@
+{
+  "CAP_SETTINGS":"Custom Autoplay Settings",
+  "CAP_SAVE":"Save",
+  "CAP_ENABLED":"Custom Autoplay Enabled",
+  "CAP_ENABLED_DESC":"If False, Custom Autoplay is disabled",
+  "CAP_PLAY_COMMAND":"Command",
+  "CAP_PLAY_COMMAND_DESC":"Command that should be executed. Like payload of api/v1/replaceAndPlay",
+  "CAP_SETTINGS_UPDATED":"Settings updated"
+}

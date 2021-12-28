@@ -1,0 +1,42 @@
+{
+  "page": {
+    "label": "TRANSLATE.PLUGIN_CONFIGURATION"
+  },
+  "sections": [
+    {
+      "id": "section_settings",
+      "element": "section",
+      "label": "TRANSLATE.CAP_SETTINGS",
+      "icon": "fa-plug",
+      "onSave": {
+        "type": "controller",
+        "endpoint": "system_controller/custom_autoplay",
+        "method": "setUIConfig"
+      },
+      "saveButton": {
+        "label": "TRANSLATE.CAP_SAVE",
+        "data": [
+          "enabled",
+          "playCommand"
+        ]
+      },
+      "content": [
+        {
+          "id": "enabled",
+          "element": "switch",
+          "label": "TRANSLATE.CAP_ENABLED",
+          "doc": "TRANSLATE.CAP_ENABLED_DESC",
+          "value": false
+        },
+        {
+          "id": "playCommand",
+          "type": "string",
+          "element": "input",
+          "label": "TRANSLATE.CAP_PLAY_COMMAND",
+          "doc": "TRANSLATE.CAP_PLAY_COMMAND_DESC",  
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
